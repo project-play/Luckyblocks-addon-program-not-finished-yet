@@ -42,6 +42,14 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                numericUpDown3.Hide();
+                numericUpDown4.Hide();
+                numericUpDown5.Hide();
+                numericUpDown6.Hide();
+                numericUpDown7.Hide();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
+                
             }
             if (comboBox1.SelectedItem.ToString() == "properties")
             {
