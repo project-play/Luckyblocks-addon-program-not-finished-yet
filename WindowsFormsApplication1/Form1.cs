@@ -193,7 +193,7 @@ namespace WindowsFormsApplication1
                     file.WriteLine(comboBox8.SelectedItem.ToString() + numericUpDown7.Value.ToString());
                     file.WriteLine(comboBox9.SelectedItem.ToString() + numericUpDown8.Value.ToString());
                     file.WriteLine(comboBox10.SelectedItem.ToString() + numericUpDown9.Value.ToString());
-                    file.WriteLine(comboBox11.SelectedItem.ToString() + numericUpDown10.Value.ToString());
+                    //file.WriteLine(comboBox11.SelectedItem.ToString() + numericUpDown10.Value.ToString());
                     file.WriteLine(comboBox12.SelectedItem.ToString() + numericUpDown11.Value.ToString());
                     file.Flush();
                     file.Close();
@@ -336,7 +336,7 @@ namespace WindowsFormsApplication1
                 comboBox7.Show();
                 comboBox8.Show();
                 comboBox9.Show();
-                comboBox10.Show();
+                comboBox10.Hide();
                 comboBox11.Show();
                 comboBox12.Show();
                 numericUpDown3.Show();
@@ -345,7 +345,7 @@ namespace WindowsFormsApplication1
                 numericUpDown6.Show();
                 numericUpDown7.Show();
                 numericUpDown8.Show();
-                numericUpDown9.Show();
+                numericUpDown9.Hide();
                 numericUpDown10.Show();
                 numericUpDown11.Show();
             }
