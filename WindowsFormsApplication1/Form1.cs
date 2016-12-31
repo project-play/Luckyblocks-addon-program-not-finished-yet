@@ -185,9 +185,16 @@ namespace WindowsFormsApplication1
                 if (comboBox3.SelectedItem.ToString() == "/jewels");
                 {
                     System.IO.StreamWriter file = new System.IO.StreamWriter(@textBox2.Text);
-                    file.WriteLine();
-                    file.WriteLine(label2.Text + numericUpDown2.Value.ToString());
-                    file.WriteLine(label3.Text + comboBox2.SelectedItem.ToString());
+                    file.WriteLine("/jewels");
+                    file.WriteLine(comboBox4.SelectedItem.ToString() + numericUpDown3.Value.ToString());
+                    file.WriteLine(comboBox5.SelectedItem.ToString() + numericUpDown4.Value.ToString());
+                    file.WriteLine(comboBox6.SelectedItem.ToString() + numericUpDown5.Value.ToString());
+                    file.WriteLine(comboBox7.SelectedItem.ToString() + numericUpDown6.Value.ToString());
+                    file.WriteLine(comboBox8.SelectedItem.ToString() + numericUpDown7.Value.ToString());
+                    file.WriteLine(comboBox9.SelectedItem.ToString() + numericUpDown8.Value.ToString());
+                    file.WriteLine(comboBox10.SelectedItem.ToString() + numericUpDown9.Value.ToString());
+                    file.WriteLine(comboBox11.SelectedItem.ToString() + numericUpDown10.Value.ToString());
+                    file.WriteLine(comboBox12.SelectedItem.ToString() + numericUpDown11.Value.ToString());
                     file.Flush();
                     file.Close();
                     MessageBox.Show("Datei erstellt: " + textBox2.Text);

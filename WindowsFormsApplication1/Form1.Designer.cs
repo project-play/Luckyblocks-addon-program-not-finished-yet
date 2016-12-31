@@ -362,6 +362,15 @@
             // comboBox10
             // 
             this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "diamond=",
+            "diamond_block=",
+            "emerald=",
+            "emerald_block=",
+            "gold_ingot=",
+            "gold_block=",
+            "iron_ingot=",
+            "iron_block="});
             this.comboBox10.Location = new System.Drawing.Point(680, 245);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(136, 21);
@@ -377,6 +386,15 @@
             // comboBox11
             // 
             this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "diamond=",
+            "diamond_block=",
+            "emerald=",
+            "emerald_block=",
+            "gold_ingot=",
+            "gold_block=",
+            "iron_ingot=",
+            "iron_block="});
             this.comboBox11.Location = new System.Drawing.Point(680, 220);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(136, 21);
