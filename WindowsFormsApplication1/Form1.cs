@@ -69,6 +69,13 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                numericUpDown3.Hide();
+                numericUpDown4.Hide();
+                numericUpDown5.Hide();
+                numericUpDown6.Hide();
+                numericUpDown7.Hide();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
             }
 
 
@@ -93,6 +100,13 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                numericUpDown3.Hide();
+                numericUpDown4.Hide();
+                numericUpDown5.Hide();
+                numericUpDown6.Hide();
+                numericUpDown7.Hide();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
                 Console.WriteLine("Bool text = " + text.ToString());
             }
             
@@ -173,6 +187,13 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                numericUpDown3.Hide();
+                numericUpDown4.Hide();
+                numericUpDown5.Hide();
+                numericUpDown6.Hide();
+                numericUpDown7.Hide();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
                 label3.Hide();
             }
         }
@@ -205,6 +226,13 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                numericUpDown3.Hide();
+                numericUpDown4.Hide();
+                numericUpDown5.Hide();
+                numericUpDown6.Hide();
+                numericUpDown7.Hide();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
                 label2.Hide();
                 label3.Hide();
             }
@@ -230,6 +258,13 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                numericUpDown3.Hide();
+                numericUpDown4.Hide();
+                numericUpDown5.Hide();
+                numericUpDown6.Hide();
+                numericUpDown7.Hide();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
 
 
             }
