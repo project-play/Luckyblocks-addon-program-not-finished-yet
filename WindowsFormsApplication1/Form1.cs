@@ -87,33 +87,7 @@ namespace WindowsFormsApplication1
             }
             if (comboBox1.SelectedItem.ToString() == "luck_crafting")
             {
-                text = false;
-                label1.Text = "Parameter";
-                textBox1.Hide();
-                numericUpDown2.Hide();
-                comboBox2.Hide();
-                label2.Hide();
-                label3.Hide();
-                numericUpDown1.Hide();
                 comboBox3.Show();
-                comboBox4.Show();
-                comboBox5.Show();
-                comboBox6.Show();
-                comboBox7.Show();
-                comboBox8.Show();
-                comboBox9.Show();
-                comboBox10.Show();
-                comboBox11.Show();
-                comboBox12.Show();
-                numericUpDown3.Show();
-                numericUpDown4.Show();
-                numericUpDown5.Show();
-                numericUpDown6.Show();
-                numericUpDown7.Show();
-                numericUpDown8.Show();
-                numericUpDown9.Show();
-                numericUpDown10.Show();
-                numericUpDown11.Show();
             }
 
 
@@ -205,6 +179,19 @@ namespace WindowsFormsApplication1
                 file.Flush();
                 file.Close();
                 MessageBox.Show("Datei erstellt: " + textBox2.Text);
+            }
+            if (comboBox1.SelectedItem.ToString() == "luck_crafting")
+            {
+                if (comboBox3.SelectedItem.ToString() == "/jewels");
+                {
+                    System.IO.StreamWriter file = new System.IO.StreamWriter(@textBox2.Text);
+                    file.WriteLine();
+                    file.WriteLine(label2.Text + numericUpDown2.Value.ToString());
+                    file.WriteLine(label3.Text + comboBox2.SelectedItem.ToString());
+                    file.Flush();
+                    file.Close();
+                    MessageBox.Show("Datei erstellt: " + textBox2.Text);
+                }
             }
             
             
@@ -322,7 +309,40 @@ namespace WindowsFormsApplication1
 
             }
         }
-      
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox3.SelectedItem.ToString() == "/jewels")
+            {
+                label1.Text = "Parameter";
+                label1.Show();
+                textBox1.Hide();
+                numericUpDown2.Hide();
+                comboBox2.Hide();
+                label2.Hide();
+                label3.Hide();
+                numericUpDown1.Hide();
+                comboBox3.Show();
+                comboBox4.Show();
+                comboBox5.Show();
+                comboBox6.Show();
+                comboBox7.Show();
+                comboBox8.Show();
+                comboBox9.Show();
+                comboBox10.Show();
+                comboBox11.Show();
+                comboBox12.Show();
+                numericUpDown3.Show();
+                numericUpDown4.Show();
+                numericUpDown5.Show();
+                numericUpDown6.Show();
+                numericUpDown7.Show();
+                numericUpDown8.Show();
+                numericUpDown9.Show();
+                numericUpDown10.Show();
+                numericUpDown11.Show();
+            }
+        }
     }
     
 }

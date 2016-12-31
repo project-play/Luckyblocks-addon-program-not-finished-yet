@@ -206,6 +206,7 @@
             this.comboBox3.Size = new System.Drawing.Size(288, 21);
             this.comboBox3.TabIndex = 12;
             this.comboBox3.Text = "Bitte wählen";
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // comboBox4
             // 
