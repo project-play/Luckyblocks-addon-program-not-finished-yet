@@ -226,6 +226,8 @@ namespace WindowsFormsApplication1
                 comboBox8.Hide();
                 comboBox9.Hide();
                 comboBox10.Hide();
+                comboBox11.Hide();
+                comboBox12.Hide();
                 numericUpDown3.Hide();
                 numericUpDown4.Hide();
                 numericUpDown5.Hide();
@@ -233,6 +235,8 @@ namespace WindowsFormsApplication1
                 numericUpDown7.Hide();
                 numericUpDown8.Hide();
                 numericUpDown9.Hide();
+                numericUpDown10.Hide();
+                numericUpDown11.Hide();
                 label2.Hide();
                 label3.Hide();
             }
