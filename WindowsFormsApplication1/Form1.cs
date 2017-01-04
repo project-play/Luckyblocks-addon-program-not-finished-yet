@@ -379,6 +379,37 @@ namespace WindowsFormsApplication1
                 numericUpDown10.Hide();
                 numericUpDown11.Hide();
             }
+            if (comboBox3.SelectedItem.ToString() == "/unlucky items")
+            {
+                label1.Text = "Parameter";
+                label1.Show();
+                textBox1.Hide();
+                numericUpDown2.Hide();
+                comboBox2.Hide();
+                label2.Hide();
+                label3.Hide();
+                numericUpDown1.Hide();
+                comboBox3.Show();
+                comboBox4.Show();
+                comboBox5.Show();
+                comboBox6.Show();
+                comboBox7.Show();
+                comboBox8.Show();
+                comboBox9.Hide();
+                comboBox10.Hide();
+                comboBox11.Hide();
+                comboBox12.Hide();
+                numericUpDown3.Show();
+                numericUpDown4.Show();
+                numericUpDown5.Show();
+                numericUpDown6.Show();
+                numericUpDown7.Show();
+                numericUpDown8.Hide();
+                numericUpDown9.Hide();
+                numericUpDown10.Hide();
+                numericUpDown11.Hide();
+            }
+           
         }
 
         private void numericUpDown3_ValueChanged(object sender, EventArgs e)
