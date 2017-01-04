@@ -349,8 +349,12 @@ namespace WindowsFormsApplication1
                 numericUpDown10.Show();
                 numericUpDown11.Show();
             }
+            //TO DO: make an refresh for the two other item lists
             if (comboBox3.SelectedItem.ToString() == "/lucky items")
             {
+                
+
+
                 label1.Text = "Parameter";
                 label1.Show();
                 textBox1.Hide();
